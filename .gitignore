@@ -1,0 +1,26 @@
+# Per-issue git worktrees
+worktrees/
+
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Wrangler local state and local secrets
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+!.env.example
+
+# Local agent memory
+.remember/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
