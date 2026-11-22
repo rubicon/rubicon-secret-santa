@@ -15,8 +15,9 @@ coverage/
 .env.*
 !.env.example
 
-# Local agent memory
+# Local agent memory and review reports
 .remember/
+.reviews/
 
 # OS and editor junk
 .DS_Store
