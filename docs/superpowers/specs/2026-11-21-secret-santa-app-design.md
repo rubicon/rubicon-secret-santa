@@ -1,6 +1,6 @@
 # Secret Santa web app: design
 
-- Status: draft for owner review. Nothing is implemented.
+- Status: approved by the owner on 2026-11-21. Nothing is implemented.
 - Date: 2026-11-21
 - Repository: `rubicon/rubicon-secret-santa` (public, AGPL-3.0-only)
 - Supersedes: an earlier uncommitted draft that framed this as a mode of a chat skill. That framing
@@ -610,8 +610,8 @@ Phase 1 keeps every data path scoped per organizer so these can be added without
 1. Free-plan Access seat count.
 2. The `email` claim in the Access JWT for passkey sign-ins.
 3. What the Email Sending activity log stores and for how long.
-5. Whether Workers invocation logs include request or response bodies.
-6. The minimum Cloudflare API token scopes for the setup script.
+4. Whether Workers invocation logs include request or response bodies.
+5. The minimum Cloudflare API token scopes for the setup script.
 
 ## 16. Testing
 
